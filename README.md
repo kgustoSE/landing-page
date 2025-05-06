@@ -1,2 +1,2 @@
 # landing-page
-Odin Project Landing-Page Assignment
+In this assignment my goal is to replicate the example provided, creating a modern website template.
