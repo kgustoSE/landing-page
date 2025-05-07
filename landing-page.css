@@ -262,3 +262,9 @@ margin-bottom: 40px;
     height: 600px;
     padding: 20px;
   }
+  button:hover, .cta-button:hover {
+    background-color: #2563EB;  
+}
+button:active, .cta-button:active {
+    background-color: #1D4ED8;  
+}
