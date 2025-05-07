@@ -162,7 +162,13 @@ margin-bottom: 40px;
 }
 .quotation-hero-container {
     height:800px;
+    background-image: url(./Images/Thor.jpg);
     background-color: #E5E7EB;
+    z-index: 1;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -181,13 +187,13 @@ margin-bottom: 40px;
     font-style: italic;
     justify-content: center;
     align-items: center;
-    color: #1F2937;
+    color: white;
     font-size: 19px;
     margin-bottom: 10px;
     
 }
 .author {
-    color: #1F2937;
+    color: white;
     display: flex;
     justify-content: right;
     font-weight: bold;
@@ -245,4 +251,14 @@ margin-bottom: 40px;
     cursor: pointer;
     white-space: nowrap;
     align-content: center;
+  }
+  .footer-container {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 600px;
+    padding: 20px;
   }
