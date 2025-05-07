@@ -1,0 +1,248 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    flex-direction: column;
+}
+.main-container {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    height: 500px;
+    flex-direction: column;
+   
+    
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.header {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 22px;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+.hero-container {
+    justify-content: space-between;
+    display: flex;
+    padding: 90px;
+    gap: 400px;
+    
+    
+}
+.H1-container {
+flex-grow: 1;
+flex-shrink: 0;
+flex-direction: column;
+width: 300px;
+height: 400px;
+flex-wrap: wrap;
+
+}
+.image-container {
+   
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.image {
+    display: flex;
+    width: 390px;
+    height: 200px;
+    background-color: slategray ;
+    font-size: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.H1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    text-wrap: wrap;
+    margin-bottom: 5px;
+}
+.description {
+    color: #E5E7EB;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+button {
+   padding: 4px 20px;
+   background-color: #3882F6;
+   cursor: pointer;
+   border: none;
+   border-radius: 4px;
+   color: white;
+   font-size: 12px;
+}
+.container2 {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 65px;
+    
+}
+.H2-container {
+
+flex-direction: column;
+
+}
+.H2 {
+font-size: 26px;
+font-weight: 900;
+color: #1F2937;
+text-align: center;
+margin-top: -140px;
+margin-bottom: 40px;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    
+}
+.description {
+    display: flex;
+    color:#E5E7EB;
+    flex:1;
+    justify-content: center;
+}
+.box-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    word-wrap:break-word;
+    white-space: normal;
+    max-width: 100%;
+    
+    
+    
+}
+.box-wrapper {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+    text-wrap: wrap;
+    width: 120px;
+    flex: 1;
+}
+.quotation-hero-container {
+    height:800px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+   
+}
+.quotation-container {
+  margin: 70px;
+  padding: 20px;
+  height: 200px;
+  width: 450px;
+
+  
+}
+.quotation {
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 19px;
+    margin-bottom: 10px;
+    
+}
+.author {
+    color: #1F2937;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+}
+.call-to-action-hero-container {
+    background-color: white;
+    margin: 40px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 60px;
+    border-radius: 8px;
+    color: white;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    gap: 30px;
+    
+  }
+  
+  .call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 60%;
+  }
+  
+  .call-to-action {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .call-to-action-description {
+    font-size: 14px;
+    color: #E5E7EB;
+  }
+  
+  .cta-button {
+    padding: 3px 24px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    align-content: center;
+  }
